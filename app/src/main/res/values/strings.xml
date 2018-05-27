@@ -2,4 +2,55 @@
     <string name="app_name">News App</string>
     <string name="no_articles">No articles found</string>
     <string name="no_connection">No internet connection</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings For Section Preference [CHAR LIMIT=30] -->
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_all_value</string>
+    <!-- Label for all sections  option [CHAR LIMIT=20] -->
+    <string name="settings_section_all_label">All sections</string>
+    <string name="settings_section_all_value" translatable="false">all</string>
+    <!-- Label for section sport option [CHAR LIMIT=20] -->
+    <string name="settings_section_sport_label">Sport</string>
+    <string name="settings_section_sport_value" translatable="false">sport</string>
+    <!-- Label for section business option [CHAR LIMIT=20] -->
+    <string name="settings_section_business_label">Business</string>
+    <string name="settings_section_business_value" translatable="false">business</string>
+    <!-- Label for section music option [CHAR LIMIT=20] -->
+    <string name="settings_section_music_label">Music</string>
+    <string name="settings_section_music_value" translatable="false">music</string>
+    <!-- Label for section world option [CHAR LIMIT=20] -->
+    <string name="settings_section_world_label">World</string>
+    <string name="settings_section_world_value" translatable="false">world</string>
+    <!-- Label for section politics option [CHAR LIMIT=20] -->
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_politics_value" translatable="false">politics</string>
+    <!-- Label for section education option [CHAR LIMIT=20] -->
+    <string name="settings_section_education_label">Education</string>
+    <string name="settings_section_education_value" translatable="false">education</string>
+
+    <!-- Strings For Keyword Preference [CHAR LIMIT=30] -->
+    <string name="settings_keyword_label">Keyword</string>
+    <string name="settings_keyword_key" translatable="false">q</string>
+    <string name="settings_keyword_default" translatable="false">@string/settings_keyword_empty_label</string>
+    <!-- Label for no keyword selected option [CHAR LIMIT=20] -->
+    <string name="settings_keyword_empty_label">No keyword specified</string>
+    <string name="settings_keyword_empty_value" translatable="false">No keyword specified</string>
+
 </resources>
