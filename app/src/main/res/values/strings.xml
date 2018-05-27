@@ -48,9 +48,9 @@
     <!-- Strings For Keyword Preference [CHAR LIMIT=30] -->
     <string name="settings_keyword_label">Keyword</string>
     <string name="settings_keyword_key" translatable="false">q</string>
-    <string name="settings_keyword_default" translatable="false">@string/settings_keyword_empty_label</string>
+    <string name="settings_keyword_default" translatable="false">@string/settings_keyword_empty_value</string>
     <!-- Label for no keyword selected option [CHAR LIMIT=20] -->
     <string name="settings_keyword_empty_label">No keyword specified</string>
-    <string name="settings_keyword_empty_value" translatable="false">No keyword specified</string>
+    <string name="settings_keyword_empty_value" translatable="false"></string>
 
 </resources>
